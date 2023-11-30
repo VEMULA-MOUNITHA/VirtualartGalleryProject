@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		720EBA4325A783F9278AB267 /* Pods_VirtualArtGalleryApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF45622D5365A39F5C7C049 /* Pods_VirtualArtGalleryApplication.framework */; };
+		743F889E2AF524FB0085AD55 /* ArtistCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743F889C2AF524FB0085AD55 /* ArtistCVC.swift */; };
+		743F88A12AF527210085AD55 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743F88A02AF527210085AD55 /* HomeViewController.swift */; };
+		743F88A32AF527620085AD55 /* SearchArtistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743F88A22AF527620085AD55 /* SearchArtistViewController.swift */; };
+		743F88A52AF5276E0085AD55 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743F88A42AF5276E0085AD55 /* ProfileViewController.swift */; };
+		743F88A72AF527800085AD55 /* ArtistGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743F88A62AF527800085AD55 /* ArtistGalleryViewController.swift */; };
+		743F88A92AF5278C0085AD55 /* GalleryDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743F88A82AF5278C0085AD55 /* GalleryDetailsViewController.swift */; };
+		743F88AB2AF527990085AD55 /* ArtistProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743F88AA2AF527990085AD55 /* ArtistProfileViewController.swift */; };
+		743F88AD2AF527B10085AD55 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743F88AC2AF527B10085AD55 /* ChangePasswordViewController.swift */; };
+		743F88AF2AF52E8D0085AD55 /* ArtistGalleryCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743F88AE2AF52E8D0085AD55 /* ArtistGalleryCVC.swift */; };
+		7469BE7D2AF2588E001F11DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7469BE7C2AF2588E001F11DD /* AppDelegate.swift */; };
+		7469BE7F2AF2588E001F11DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7469BE7E2AF2588E001F11DD /* SceneDelegate.swift */; };
+		7469BE812AF2588E001F11DD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7469BE802AF2588E001F11DD /* LoginViewController.swift */; };
+		7469BE842AF2588E001F11DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7469BE822AF2588E001F11DD /* Main.storyboard */; };
+		7469BE862AF2588F001F11DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7469BE852AF2588F001F11DD /* Assets.xcassets */; };
+		7469BE892AF2588F001F11DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7469BE872AF2588F001F11DD /* LaunchScreen.storyboard */; };
+		7469BE912AF26D9F001F11DD /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7469BE902AF26D9E001F11DD /* SplashViewController.swift */; };
+		7469BE932AF26DD3001F11DD /* ForgotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7469BE922AF26DD3001F11DD /* ForgotViewController.swift */; };
+		7469BE952AF26DDD001F11DD /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7469BE942AF26DDD001F11DD /* RegisterViewController.swift */; };
+		74847F632AFD0CA400873DAC /* ArtistGalleryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74847F622AFD0CA400873DAC /* ArtistGalleryModel.swift */; };
+		74847F652AFD21AB00873DAC /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74847F642AFD21AA00873DAC /* UserModel.swift */; };
+		7484CF7A2B0C788900A14DBB /* VirtualArtGalleryApplication.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7484CF782B0C788900A14DBB /* VirtualArtGalleryApplication.xcdatamodeld */; };
+		749AEF422AF3D46200A94C57 /* WelComeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749AEF412AF3D46200A94C57 /* WelComeViewController.swift */; };
+		74A870A62B01FFB000102AB1 /* SelectImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A870A52B01FFB000102AB1 /* SelectImage.swift */; };
+		74CF7D7C2AFB5CFF00CDAEB1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74CF7D7B2AFB5CFF00CDAEB1 /* GoogleService-Info.plist */; };
+		74CF7D7E2AFB5D9B00CDAEB1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7D7D2AFB5D9B00CDAEB1 /* Extensions.swift */; };
+		74CF7D832AFBAD0900CDAEB1 /* ArtistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7D822AFBAD0900CDAEB1 /* ArtistModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3EF45622D5365A39F5C7C049 /* Pods_VirtualArtGalleryApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirtualArtGalleryApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4773A4296A36D0C1B43F0977 /* Pods-VirtualArtGalleryApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualArtGalleryApplication.release.xcconfig"; path = "Target Support Files/Pods-VirtualArtGalleryApplication/Pods-VirtualArtGalleryApplication.release.xcconfig"; sourceTree = "<group>"; };
+		4E16B04D8F0BD9904ECF9E55 /* Pods-VirtualArtGalleryApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualArtGalleryApplication.debug.xcconfig"; path = "Target Support Files/Pods-VirtualArtGalleryApplication/Pods-VirtualArtGalleryApplication.debug.xcconfig"; sourceTree = "<group>"; };
+		743F889C2AF524FB0085AD55 /* ArtistCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistCVC.swift; sourceTree = "<group>"; };
+		743F88A02AF527210085AD55 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		743F88A22AF527620085AD55 /* SearchArtistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchArtistViewController.swift; sourceTree = "<group>"; };
+		743F88A42AF5276E0085AD55 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		743F88A62AF527800085AD55 /* ArtistGalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistGalleryViewController.swift; sourceTree = "<group>"; };
+		743F88A82AF5278C0085AD55 /* GalleryDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryDetailsViewController.swift; sourceTree = "<group>"; };
+		743F88AA2AF527990085AD55 /* ArtistProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistProfileViewController.swift; sourceTree = "<group>"; };
+		743F88AC2AF527B10085AD55 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		743F88AE2AF52E8D0085AD55 /* ArtistGalleryCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistGalleryCVC.swift; sourceTree = "<group>"; };
+		7469BE792AF2588E001F11DD /* VirtualArtGalleryApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualArtGalleryApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7469BE7C2AF2588E001F11DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7469BE7E2AF2588E001F11DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7469BE802AF2588E001F11DD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7469BE832AF2588E001F11DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7469BE852AF2588F001F11DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7469BE882AF2588F001F11DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7469BE8A2AF2588F001F11DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7469BE902AF26D9E001F11DD /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		7469BE922AF26DD3001F11DD /* ForgotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotViewController.swift; sourceTree = "<group>"; };
+		7469BE942AF26DDD001F11DD /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		74847F622AFD0CA400873DAC /* ArtistGalleryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistGalleryModel.swift; sourceTree = "<group>"; };
+		74847F642AFD21AA00873DAC /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		7484CF792B0C788900A14DBB /* VirtualArtGalleryApplication.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VirtualArtGalleryApplication.xcdatamodel; sourceTree = "<group>"; };
+		749AEF412AF3D46200A94C57 /* WelComeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelComeViewController.swift; sourceTree = "<group>"; };
+		74A870A52B01FFB000102AB1 /* SelectImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectImage.swift; sourceTree = "<group>"; };
+		74CF7D7B2AFB5CFF00CDAEB1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		74CF7D7D2AFB5D9B00CDAEB1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		74CF7D822AFBAD0900CDAEB1 /* ArtistModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7469BE762AF2588E001F11DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				720EBA4325A783F9278AB267 /* Pods_VirtualArtGalleryApplication.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		743F889B2AF524C80085AD55 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				743F889C2AF524FB0085AD55 /* ArtistCVC.swift */,
+				743F88AE2AF52E8D0085AD55 /* ArtistGalleryCVC.swift */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		7469BE702AF2588E001F11DD = {
+			isa = PBXGroup;
+			children = (
+				7469BE7B2AF2588E001F11DD /* VirtualArtGalleryApplication */,
+				7469BE7A2AF2588E001F11DD /* Products */,
+				90047D4032E2A638E0DD4BD7 /* Pods */,
+				9D5721EE82E6BC029CA711C9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7469BE7A2AF2588E001F11DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7469BE792AF2588E001F11DD /* VirtualArtGalleryApplication.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7469BE7B2AF2588E001F11DD /* VirtualArtGalleryApplication */ = {
+			isa = PBXGroup;
+			children = (
+				74CF7D812AFBACFF00CDAEB1 /* Model */,
+				743F889B2AF524C80085AD55 /* CollectionViewCells */,
+				7469BE7C2AF2588E001F11DD /* AppDelegate.swift */,
+				7469BE7E2AF2588E001F11DD /* SceneDelegate.swift */,
+				7469BE902AF26D9E001F11DD /* SplashViewController.swift */,
+				749AEF412AF3D46200A94C57 /* WelComeViewController.swift */,
+				7469BE802AF2588E001F11DD /* LoginViewController.swift */,
+				7469BE922AF26DD3001F11DD /* ForgotViewController.swift */,
+				7469BE942AF26DDD001F11DD /* RegisterViewController.swift */,
+				743F88A02AF527210085AD55 /* HomeViewController.swift */,
+				743F88A62AF527800085AD55 /* ArtistGalleryViewController.swift */,
+				743F88A82AF5278C0085AD55 /* GalleryDetailsViewController.swift */,
+				743F88AA2AF527990085AD55 /* ArtistProfileViewController.swift */,
+				743F88A22AF527620085AD55 /* SearchArtistViewController.swift */,
+				743F88A42AF5276E0085AD55 /* ProfileViewController.swift */,
+				743F88AC2AF527B10085AD55 /* ChangePasswordViewController.swift */,
+				7469BE822AF2588E001F11DD /* Main.storyboard */,
+				74CF7D7B2AFB5CFF00CDAEB1 /* GoogleService-Info.plist */,
+				7469BE852AF2588F001F11DD /* Assets.xcassets */,
+				74A870A52B01FFB000102AB1 /* SelectImage.swift */,
+				7469BE872AF2588F001F11DD /* LaunchScreen.storyboard */,
+				7469BE8A2AF2588F001F11DD /* Info.plist */,
+				74CF7D7D2AFB5D9B00CDAEB1 /* Extensions.swift */,
+				7484CF782B0C788900A14DBB /* VirtualArtGalleryApplication.xcdatamodeld */,
+			);
+			path = VirtualArtGalleryApplication;
+			sourceTree = "<group>";
+		};
+		74CF7D812AFBACFF00CDAEB1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				74CF7D822AFBAD0900CDAEB1 /* ArtistModel.swift */,
+				74847F642AFD21AA00873DAC /* UserModel.swift */,
+				74847F622AFD0CA400873DAC /* ArtistGalleryModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		90047D4032E2A638E0DD4BD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E16B04D8F0BD9904ECF9E55 /* Pods-VirtualArtGalleryApplication.debug.xcconfig */,
+				4773A4296A36D0C1B43F0977 /* Pods-VirtualArtGalleryApplication.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9D5721EE82E6BC029CA711C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EF45622D5365A39F5C7C049 /* Pods_VirtualArtGalleryApplication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7469BE782AF2588E001F11DD /* VirtualArtGalleryApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7469BE8D2AF2588F001F11DD /* Build configuration list for PBXNativeTarget "VirtualArtGalleryApplication" */;
+			buildPhases = (
+				EA9F504A43FD51FF767022FF /* [CP] Check Pods Manifest.lock */,
+				7469BE752AF2588E001F11DD /* Sources */,
+				7469BE762AF2588E001F11DD /* Frameworks */,
+				7469BE772AF2588E001F11DD /* Resources */,
+				03DC5BF4655F99689805348A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirtualArtGalleryApplication;
+			productName = VirtualArtGalleryApplication;
+			productReference = 7469BE792AF2588E001F11DD /* VirtualArtGalleryApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7469BE712AF2588E001F11DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7469BE782AF2588E001F11DD = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 7469BE742AF2588E001F11DD /* Build configuration list for PBXProject "VirtualArtGalleryApplication" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7469BE702AF2588E001F11DD;
+			productRefGroup = 7469BE7A2AF2588E001F11DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7469BE782AF2588E001F11DD /* VirtualArtGalleryApplication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7469BE772AF2588E001F11DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7469BE892AF2588F001F11DD /* LaunchScreen.storyboard in Resources */,
+				74CF7D7C2AFB5CFF00CDAEB1 /* GoogleService-Info.plist in Resources */,
+				7469BE862AF2588F001F11DD /* Assets.xcassets in Resources */,
+				7469BE842AF2588E001F11DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03DC5BF4655F99689805348A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VirtualArtGalleryApplication/Pods-VirtualArtGalleryApplication-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VirtualArtGalleryApplication/Pods-VirtualArtGalleryApplication-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VirtualArtGalleryApplication/Pods-VirtualArtGalleryApplication-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA9F504A43FD51FF767022FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VirtualArtGalleryApplication-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7469BE752AF2588E001F11DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743F88A32AF527620085AD55 /* SearchArtistViewController.swift in Sources */,
+				74847F632AFD0CA400873DAC /* ArtistGalleryModel.swift in Sources */,
+				7469BE812AF2588E001F11DD /* LoginViewController.swift in Sources */,
+				7469BE7D2AF2588E001F11DD /* AppDelegate.swift in Sources */,
+				74A870A62B01FFB000102AB1 /* SelectImage.swift in Sources */,
+				743F88AD2AF527B10085AD55 /* ChangePasswordViewController.swift in Sources */,
+				74CF7D832AFBAD0900CDAEB1 /* ArtistModel.swift in Sources */,
+				743F88AF2AF52E8D0085AD55 /* ArtistGalleryCVC.swift in Sources */,
+				7469BE7F2AF2588E001F11DD /* SceneDelegate.swift in Sources */,
+				7484CF7A2B0C788900A14DBB /* VirtualArtGalleryApplication.xcdatamodeld in Sources */,
+				7469BE952AF26DDD001F11DD /* RegisterViewController.swift in Sources */,
+				743F88AB2AF527990085AD55 /* ArtistProfileViewController.swift in Sources */,
+				7469BE932AF26DD3001F11DD /* ForgotViewController.swift in Sources */,
+				743F88A52AF5276E0085AD55 /* ProfileViewController.swift in Sources */,
+				743F88A12AF527210085AD55 /* HomeViewController.swift in Sources */,
+				743F889E2AF524FB0085AD55 /* ArtistCVC.swift in Sources */,
+				743F88A92AF5278C0085AD55 /* GalleryDetailsViewController.swift in Sources */,
+				7469BE912AF26D9F001F11DD /* SplashViewController.swift in Sources */,
+				74CF7D7E2AFB5D9B00CDAEB1 /* Extensions.swift in Sources */,
+				743F88A72AF527800085AD55 /* ArtistGalleryViewController.swift in Sources */,
+				74847F652AFD21AB00873DAC /* UserModel.swift in Sources */,
+				749AEF422AF3D46200A94C57 /* WelComeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7469BE822AF2588E001F11DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7469BE832AF2588E001F11DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7469BE872AF2588F001F11DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7469BE882AF2588F001F11DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7469BE8B2AF2588F001F11DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7469BE8C2AF2588F001F11DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7469BE8E2AF2588F001F11DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E16B04D8F0BD9904ECF9E55 /* Pods-VirtualArtGalleryApplication.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VirtualArtGalleryApplication/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissourii.fall23.cs44643;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7469BE8F2AF2588F001F11DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4773A4296A36D0C1B43F0977 /* Pods-VirtualArtGalleryApplication.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VirtualArtGalleryApplication/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissourii.fall23.cs44643;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7469BE742AF2588E001F11DD /* Build configuration list for PBXProject "VirtualArtGalleryApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7469BE8B2AF2588F001F11DD /* Debug */,
+				7469BE8C2AF2588F001F11DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7469BE8D2AF2588F001F11DD /* Build configuration list for PBXNativeTarget "VirtualArtGalleryApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7469BE8E2AF2588F001F11DD /* Debug */,
+				7469BE8F2AF2588F001F11DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7484CF782B0C788900A14DBB /* VirtualArtGalleryApplication.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7484CF792B0C788900A14DBB /* VirtualArtGalleryApplication.xcdatamodel */,
+			);
+			currentVersion = 7484CF792B0C788900A14DBB /* VirtualArtGalleryApplication.xcdatamodel */;
+			path = VirtualArtGalleryApplication.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7469BE712AF2588E001F11DD /* Project object */;
+}
