@@ -12,6 +12,9 @@ import FirebaseAuth
 class LoginViewController: UIViewController {
 
     
+    
+    
+    
     @IBOutlet var emailTF: UITextField!
     @IBOutlet var passwordTF: UITextField!
     
