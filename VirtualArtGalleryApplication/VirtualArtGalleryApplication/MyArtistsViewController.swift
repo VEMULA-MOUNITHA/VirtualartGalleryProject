@@ -2,7 +2,7 @@
 //  MyArtistsViewController.swift
 //  VirtualArtGalleryApplication
 //
-//  Created by Ali Sher on 02/12/2023.
+//  Created by Mounitha Vemula on 02/12/2023.
 //
 
 import UIKit

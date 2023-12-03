@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppLogo" translatesAutoresizingMaskIntoConstraints="NO" id="M1N-Ip-K9E">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppLogo" translatesAutoresizingMaskIntoConstraints="NO" id="M1N-Ip-K9E">
                                 <rect key="frame" x="121.66666666666669" y="376" width="150" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="PLp-4r-bth"/>
@@ -119,7 +119,7 @@
                                     <constraint firstItem="rPO-26-uyt" firstAttribute="leading" secondItem="gxH-2a-ExR" secondAttribute="leading" constant="16" id="x5K-2d-vNy"/>
                                 </constraints>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppLogo" translatesAutoresizingMaskIntoConstraints="NO" id="ScL-Ib-ewY">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppLogo" translatesAutoresizingMaskIntoConstraints="NO" id="ScL-Ib-ewY">
                                 <rect key="frame" x="121.66666666666669" y="151" width="150" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="6oR-sO-k4Y"/>
@@ -215,7 +215,7 @@
                                     <constraint firstItem="vVq-zV-JLK" firstAttribute="leading" secondItem="K7M-XS-Y1x" secondAttribute="leading" constant="16" id="zsh-TN-DFa"/>
                                 </constraints>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppLogo" translatesAutoresizingMaskIntoConstraints="NO" id="kTI-Tg-7il">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppLogo" translatesAutoresizingMaskIntoConstraints="NO" id="kTI-Tg-7il">
                                 <rect key="frame" x="121.66666666666669" y="151" width="150" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="5oV-5V-rPG"/>
@@ -323,7 +323,7 @@
                                     <constraint firstItem="ggz-Pa-dJa" firstAttribute="leading" secondItem="OGm-gB-4ba" secondAttribute="leading" id="rrt-Tz-2LN"/>
                                 </constraints>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Ojg-t4-rwh">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Ojg-t4-rwh">
                                 <rect key="frame" x="121.66666666666669" y="151" width="150" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="8f8-Vd-FqE"/>
@@ -410,7 +410,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Zlg-KK-nLU">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Zlg-KK-nLU">
                                 <rect key="frame" x="121.66666666666669" y="151" width="150" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="4Cf-pF-qAC"/>
@@ -736,7 +736,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="AQO-ko-FEk">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="AQO-ko-FEk">
                                 <rect key="frame" x="136.66666666666666" y="127" width="119.99999999999997" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="WDj-7c-7o9"/>
@@ -1992,7 +1992,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="cYa-Df-hIR"/>
-        <segue reference="xxZ-dO-UcQ"/>
+        <segue reference="UO4-00-Wt9"/>
         <segue reference="KAQ-ZB-oVJ"/>
     </inferredMetricsTieBreakers>
     <resources>

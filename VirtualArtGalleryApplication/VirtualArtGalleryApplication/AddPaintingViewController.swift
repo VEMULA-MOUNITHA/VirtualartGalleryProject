@@ -2,7 +2,7 @@
 //  AddPaintingViewController.swift
 //  VirtualArtGalleryApplication
 //
-//  Created by Ali Sher on 01/12/2023.
+//  Created by Mounitha Vemula on 01/12/2023.
 //
 
 import UIKit
