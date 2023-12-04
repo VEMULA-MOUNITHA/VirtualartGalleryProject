@@ -44,7 +44,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="J6c-7p-Mi0"/>
                     <connections>
-                        <segue destination="erx-cI-3M0" kind="push" identifier="welcome" id="lxm-fq-zJf"/>
+                        <segue destination="erx-cI-3M0" kind="show" identifier="welcome" id="lxm-fq-zJf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4ed-a0-9hz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -94,7 +94,7 @@
                                                     <color key="titleColor" name="ThemeColor"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="RxF-bG-msr" kind="push" id="KC0-ZK-z1J"/>
+                                                    <segue destination="RxF-bG-msr" kind="show" id="KC0-ZK-z1J"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -148,7 +148,7 @@
                                             <color key="titleColor" name="ThemeColor"/>
                                         </state>
                                         <connections>
-                                            <segue destination="KET-J3-NXo" kind="push" id="KAQ-ZB-oVJ"/>
+                                            <segue destination="KET-J3-NXo" kind="show" id="KAQ-ZB-oVJ"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -436,7 +436,7 @@
                                             <color key="baseBackgroundColor" name="ThemeColor"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <segue destination="BYZ-38-t0r" kind="push" id="mjK-na-ULE"/>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="mjK-na-ULE"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SdK-ql-Yfp">
@@ -446,7 +446,7 @@
                                             <color key="baseBackgroundColor" name="ThemeColor"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <segue destination="KET-J3-NXo" kind="push" id="Auk-oS-axw"/>
+                                            <segue destination="KET-J3-NXo" kind="show" id="Auk-oS-axw"/>
                                         </connections>
                                     </button>
                                 </subviews>
